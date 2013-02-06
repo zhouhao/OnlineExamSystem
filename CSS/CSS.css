@@ -1,0 +1,121 @@
+*{
+margin:0px;
+padding:0px;
+}
+
+body,html{
+background:url(../images/bg.jpg) no-repeat top center;
+font-size:12px;
+font-family:Arial;
+}
+
+
+
+A:link, A:active
+{
+	color: #000;
+	text-decoration: none;
+        font-size: 13px;
+        font-family:ËÎÌו;
+}
+A:visited
+{  
+	color: #000;
+	text-decoration: none;
+        font-size: 13px;
+         font-family:ËÎÌו;
+}
+A:hover
+{
+	color: #FF0000;
+	text-decoration: none;
+        font-size: 13px;
+         font-family:ËÎÌו;
+}
+
+td
+{
+	height:25px;
+	}
+	
+hr
+{
+	border:1px solid #ccc;
+	height:1px;
+	}
+	
+h4
+{
+	padding-left:20px;
+	padding-top:2px;	
+	font-size:14px;
+	font-weight:bold;
+	}
+#ctl00_Lefttree1_LabelTree
+{
+	width:130px;
+	height:500px;
+	display:block;
+	overflow:hidden;
+	float:left;
+	margin:10px;
+	margin-right:0px;
+	margin-top:0px;
+	margin-left:0px;
+	padding:0px;
+	text-align:left;
+	background-image:url(/images/bg.gif);
+	background-repeat:repeat-x;
+}
+.div8px
+{
+	width:120px;
+	height:7px;
+	display:block;
+	overflow:hidden;
+	clear:both;
+}
+body #ctl00_ContentPlaceHolder1_GridView1
+{
+	width:95%;
+	height:auto;
+	display:block;
+	margin-left:10px;
+	margin-top:3px;
+	border:1px solid #EFEFEF;
+	border-collapse:collapse;
+}
+body #ctl00_ContentPlaceHolder1_GridView1 td
+{
+	height:28px;
+	line-height:28px;
+	text-indent:0.5em;
+	border:1px solid #EFEFEF;
+	border-collapse:collapse;
+}
+body #ctl00_ContentPlaceHolder1_GridView1 th
+{
+	height:32px;
+	line-height:32px;
+	text-indent:0.5em;
+	background-image:url(/images/searchbar_bg.png);
+	border:1px solid #EFEFEF;
+	border-collapse:collapse;
+	color:#000;
+	font-weight:bold;
+}
+u,p select
+{
+	margin-left:10px;
+}
+.panel
+{
+    position:fixed; 
+    right:10px; 
+    width:18%; 
+   /* background-color:Red;    */
+}
+.red
+{
+    background-color:Red;
+}

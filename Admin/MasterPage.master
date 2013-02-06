@@ -1,0 +1,47 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="ADMIN_MasterPage" %>
+<%@ Register Src="../Controls/lefttree.ascx" TagName="lefttree" TagPrefix="uc1" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>在线考试系统</title>
+    <script src="../JS/Morning_JS.js" type="text/javascript"></script>    
+    <link href="../CSS/CSS.css" rel="stylesheet" type="text/css" /> 
+</head>
+<body style="margin: 0px" onload="showTime();">
+ <form id="Form2" method="post" runat="server">
+    <table id="screen" border="0" cellpadding="0" cellspacing="0" height="100%" width ="100%">
+      
+    <tr>
+      <td style="height:4px;" colspan="3">
+            <img src="../Images/logo.jpg" style="border: 0px; left: 0px; position: relative; top: 0px;" alt="" width ="100%"/>
+         </td>
+    </tr>
+        <tr style="background: url(../Images/admin_topbg.jpg) repeat-x;height:36px">
+            <td style="height:25;" colspan="3">
+                &nbsp;&nbsp;&nbsp;欢迎您：<asp:Label ID="labUser" runat="server" Text="Label" Width="70px"></asp:Label>&nbsp;&nbsp;
+                                <script type="text/javascript">getDate();</script>
+              <span id="ShowTime"></span>  </td>         
+        </tr>
+
+          <tr>
+            <td  style="width: 130px" align="center" valign="top">
+                <uc1:lefttree ID="Lefttree1" runat="server" />
+           </td>          
+              <td  style="width: 4px;background: url(../Images/line.gif) repeat-y;"> 
+            </td>   
+            <td  valign="top" align="left" width="960px">
+            
+           
+                       
+        <asp:contentplaceholder id="ContentPlaceHolder1" runat="server">
+        </asp:contentplaceholder>
+         
+              
+            </td>
+        </tr>
+    </table>  
+      </form>  
+
+</body>
+</html>
