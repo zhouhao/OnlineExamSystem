@@ -1,3 +1,8 @@
+[Difference between "TaoBaoExam"]
+1. OnlineExamSystem creates exam name first, then add questions to each exam， which means one questions just belongs to one exam, and one exam can have many questions.
+2. TaoBaoExam creates questions first. When an exam is set up, the teacher has two ways to select questions from database into exam, which means one question can belongs to many exams, and one exam can have many questions.
+
+
 This peoject is written by ASP.NET 2.0, and uses Ajax. 
 As ASP.NET 2.0 doesn't support Ajax default, you should download "ASPAJAXExtSetup.msi" first, and install it.
 DOWNLOAD: http://www.microsoft.com/en-us/download/details.aspx?id=883
